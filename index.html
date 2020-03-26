@@ -3,9 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Cinzel&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
   <title>Fetch Lab</title>
 </head>
 <body>
-  <h1>Hello Front-End</h1>
+  <h1>Cat Finder</h1>
+
+
+<div class="catcall">
+  <form>
+    How many cats do you want to see?<input type="number" class="catnumber" id="catnumber" min="0">
+    <br />
+    <button type="submit" class="catgrab" id="catgrab">Show Me Cats</button>
+  </form>
+</div>
+
+<div class="catpics" id="catpics">
+
+</div>
+
+  <script src="./script.js"></script>
 </body>
 </html>

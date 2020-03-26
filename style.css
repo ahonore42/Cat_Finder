@@ -1,0 +1,61 @@
+body {
+    background: url('https://www.myfreetextures.com/wp-content/uploads/2014/10/white-fur-texture.jpg')
+}
+
+h1 {
+    font-size: 100px;
+    width: 60%;
+    text-shadow: 4px 4px 2px white;
+    margin: 20px auto;
+    padding: 10px;
+    font-family: 'Cinzel', serif;
+   
+}
+.catpics {
+    width: 80%;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 80%;
+    height: auto;
+    border-width: 50px;
+    border-style: solid;
+    border-image-source: url(https://www.myfreetextures.com/wp-content/uploads/2014/10/seamless-wood2.jpg);
+    border-image-slice: 60;
+    border-image-width: 50px;
+    border-image-repeat: round;
+    border-image-outset: 0;
+    box-shadow: 15px 15px 15px black;
+    margin: 20px;
+    border-radius: 10px;
+    
+}
+
+.catcall {
+    width: 60%;
+    margin: 40px auto;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 3px 3px 2px white;
+    font-family: 'Cinzel', bold;
+}
+
+.catgrab {
+    font-size: 24px;
+    padding: 10px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    font-weight: bold;
+    font-family: 'Cinzel', serif;
+    background: black;
+    color: white;
+}
+
+.catnumber {
+    font-size: 24px;
+    width: 50px;
+    margin: 0 0 0 10px;
+    font-family: 'Cinzel', serif;
+}
